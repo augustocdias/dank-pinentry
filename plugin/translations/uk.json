@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "Потрібен %1"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "Програму %1 не знайдено ні в PATH, ні в ~/.local/bin, ні в /usr/local/bin. Цей плагін лише малює запит; gpg-agent спілкується з програмою. Встановіть її, вкажіть як pinentry-program у ~/.gnupg/gpg-agent.conf і виконайте: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Запитано: %1"
+  },
+  "OK": {
+    "OK": "Гаразд"
+  },
+  "Cancel": {
+    "Cancel": "Скасувати"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Потрібна фраза-пароль"
+  },
+  "Passphrase": {
+    "Passphrase": "Фраза-пароль"
+  },
+  "Repeat": {
+    "Repeat": "Повторіть"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "Фрази-паролі не збігаються"
+  },
+  "No": {
+    "No": "Ні"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Ніде показати запит фрази-пароля"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Додайте віджет DankBar Pinentry на горизонтальну панель або змініть розташування. Запит чекатиме, доки не мине час."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Потрібне підтвердження"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Повідомлення від gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Потрібна програма %1, вказана як pinentry-program у gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Розташування"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Де на екрані з’являється запит. «На панелі» потребує віджета DankBar Pinentry на горизонтальній панелі."
+  },
+  "In the bar": {
+    "In the bar": "На панелі"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "По центру (діалог)"
+  },
+  "Top edge": {
+    "Top edge": "Верхній край"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Нижній край"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Показувати текст на панелі"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Показувати на панелі опис, помилки та програму, що запитує. Підтвердження завжди показують своє запитання."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Діє, лише коли запит на панелі."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Затемнювати екран"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Недоступно, коли запит на панелі."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Затемнювати все позаду запиту."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Фокус клавіатури"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape скасовує запит у будь-якому режимі. Утримання фокусу означає, що інші вікна не отримають клавіатуру, доки на запит не відповідять або не мине час."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Забирати фокус клавіатури"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Забирати й утримувати фокус клавіатури"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Залишати фокус на місці (клацання або IPC для введення)"
+  },
+  "Open automatically": {
+    "Open automatically": "Відкривати автоматично"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Показувати запит одразу після надходження. Якщо вимкнено, він чекає на панелі, доки ви не клацнете по ньому або не виконаєте: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Надсилати сповіщення"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Надсилати сповіщення, коли потрібна фраза-пароль."
+  },
+  "Notification icon": {
+    "Notification icon": "Значок сповіщення"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Назва значка Freedesktop або абсолютний шлях до зображення."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Показувати програму, що запитує"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Називати процес, який запитує фразу-пароль. Так легше розпізнати підроблений запит."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Показувати зворотний відлік"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Показувати, скільки часу лишилося до завершення запиту."
+  }
+}

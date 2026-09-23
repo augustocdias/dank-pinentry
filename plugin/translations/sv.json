@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 krävs"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "Programmet %1 hittades inte i PATH, i ~/.local/bin eller i /usr/local/bin. Det här tillägget ritar bara upp frågan; gpg-agent pratar med programmet. Installera det, ange det som pinentry-program i ~/.gnupg/gpg-agent.conf och kör sedan: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Begärt av %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "Avbryt"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Lösenfras krävs"
+  },
+  "Passphrase": {
+    "Passphrase": "Lösenfras"
+  },
+  "Repeat": {
+    "Repeat": "Upprepa"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "Lösenfraserna stämmer inte överens"
+  },
+  "No": {
+    "No": "Nej"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Ingenstans att visa lösenfrasfrågan"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Lägg till DankBar Pinentry-widgeten i en vågrät panel eller ändra placeringen. Frågan väntar tills den går ut."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Bekräftelse krävs"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Meddelande från gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Kräver programmet %1, angivet som pinentry-program i gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Placering"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Var frågan visas på skärmen. ”I panelen” kräver DankBar Pinentry-widgeten i en vågrät panel."
+  },
+  "In the bar": {
+    "In the bar": "I panelen"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Mitten (dialogruta)"
+  },
+  "Top edge": {
+    "Top edge": "Överkant"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Nederkant"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Visa text i panelen"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Visa beskrivningen, felen och det begärande programmet i panelen. Bekräftelser visar alltid sin fråga."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Gäller bara när frågan visas i panelen."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Dämpa skärmen"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Inte tillgängligt när frågan visas i panelen."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Mörka ner allt bakom frågan."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Tangentbordsfokus"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape avbryter frågan i alla lägen. Att hålla fokus betyder att andra fönster inte kan ta tangentbordet förrän frågan besvarats eller gått ut."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Ta tangentbordsfokus"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Ta och håll tangentbordsfokus"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Lämna fokus där det är (klicka eller IPC för att skriva)"
+  },
+  "Open automatically": {
+    "Open automatically": "Öppna automatiskt"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Visa frågan så fort den kommer. När det är av väntar den i panelen tills du klickar på den eller kör: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Skicka en avisering"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Skicka en avisering när en lösenfras behövs."
+  },
+  "Notification icon": {
+    "Notification icon": "Aviseringsikon"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop-ikonnamn eller absolut sökväg till en bild."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Visa det begärande programmet"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Namnge processen som frågar efter lösenfrasen. Det gör en förfalskad fråga lättare att upptäcka."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Visa nedräkningen"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Visa hur lång tid som återstår innan frågan går ut."
+  }
+}

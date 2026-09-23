@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 is vereist"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "Het programma %1 is niet gevonden in PATH, ~/.local/bin of /usr/local/bin. Deze plugin tekent alleen de invoer; gpg-agent praat met het programma. Installeer het, stel het in als pinentry-program in ~/.gnupg/gpg-agent.conf en voer dan uit: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Aangevraagd door %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "Annuleren"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Wachtwoordzin vereist"
+  },
+  "Passphrase": {
+    "Passphrase": "Wachtwoordzin"
+  },
+  "Repeat": {
+    "Repeat": "Herhalen"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "De wachtwoordzinnen komen niet overeen"
+  },
+  "No": {
+    "No": "Nee"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Nergens om de wachtwoordzinvraag te tonen"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Voeg de DankBar Pinentry-widget toe aan een horizontale balk of wijzig de plaatsing. De vraag wacht tot hij verloopt."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Bevestiging vereist"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Bericht van gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Vereist het programma %1, ingesteld als pinentry-program in gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Plaatsing"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Waar de vraag op het scherm verschijnt. ‘In de balk’ vereist de DankBar Pinentry-widget in een horizontale balk."
+  },
+  "In the bar": {
+    "In the bar": "In de balk"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Midden (dialoog)"
+  },
+  "Top edge": {
+    "Top edge": "Bovenrand"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Onderrand"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Tekst in de balk tonen"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "De beschrijving, fouten en het aanvragende programma in de balk tonen. Bevestigingen tonen altijd hun vraag."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Geldt alleen als de vraag in de balk staat."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Scherm dimmen"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Niet beschikbaar als de vraag in de balk staat."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Alles achter de vraag donkerder maken."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Toetsenbordfocus"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape annuleert de vraag in elke modus. Focus vasthouden betekent dat andere vensters het toetsenbord pas krijgen als de vraag beantwoord of verlopen is."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Toetsenbordfocus nemen"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Toetsenbordfocus nemen en vasthouden"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Focus laten waar hij is (klik of IPC om te typen)"
+  },
+  "Open automatically": {
+    "Open automatically": "Automatisch openen"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "De vraag tonen zodra hij binnenkomt. Uitgeschakeld wacht hij in de balk tot je erop klikt of uitvoert: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Een melding sturen"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Een melding sturen als er een wachtwoordzin nodig is."
+  },
+  "Notification icon": {
+    "Notification icon": "Meldingspictogram"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop-pictogramnaam of absoluut pad naar een afbeelding."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Aanvragend programma tonen"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Het proces noemen dat om de wachtwoordzin vraagt. Zo is een nagemaakte vraag makkelijker te herkennen."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Aftelling tonen"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Tonen hoeveel tijd er rest voordat de vraag verloopt."
+  }
+}

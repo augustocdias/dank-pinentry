@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 مطلوب"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "لم يُعثر على البرنامج %1 في PATH ولا في ~/.local/bin ولا في /usr/local/bin. هذه الإضافة ترسم الطلب فقط؛ أما gpg-agent فيتواصل مع البرنامج. ثبّته واضبطه كـ pinentry-program في ~/.gnupg/gpg-agent.conf ثم نفّذ: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "طلبه %1"
+  },
+  "OK": {
+    "OK": "موافق"
+  },
+  "Cancel": {
+    "Cancel": "إلغاء"
+  },
+  "Passphrase required": {
+    "Passphrase required": "عبارة المرور مطلوبة"
+  },
+  "Passphrase": {
+    "Passphrase": "عبارة المرور"
+  },
+  "Repeat": {
+    "Repeat": "كرّر"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "عبارتا المرور غير متطابقتين"
+  },
+  "No": {
+    "No": "لا"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "لا يوجد مكان لعرض طلب عبارة المرور"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "أضف عنصر DankBar Pinentry إلى شريط أفقي أو غيّر موضعه. سينتظر الطلب حتى تنتهي مهلته."
+  },
+  "Confirmation required": {
+    "Confirmation required": "التأكيد مطلوب"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "رسالة من gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "يتطلب البرنامج %1 مضبوطًا كـ pinentry-program في gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "الموضع"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "مكان ظهور الطلب على الشاشة. خيار «في الشريط» يتطلب عنصر DankBar Pinentry في شريط أفقي."
+  },
+  "In the bar": {
+    "In the bar": "في الشريط"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "الوسط (مربع حوار)"
+  },
+  "Top edge": {
+    "Top edge": "الحافة العليا"
+  },
+  "Bottom edge": {
+    "Bottom edge": "الحافة السفلى"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "إظهار النص في الشريط"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "إظهار الوصف والأخطاء والبرنامج الطالب في الشريط. تُظهر طلبات التأكيد سؤالها دائمًا."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "ينطبق فقط عندما يكون الطلب في الشريط."
+  },
+  "Dim the screen": {
+    "Dim the screen": "تعتيم الشاشة"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "غير متاح عندما يكون الطلب في الشريط."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "تعتيم كل ما خلف الطلب."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "تركيز لوحة المفاتيح"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "يُلغي مفتاح Escape الطلب في كل الأوضاع. الاحتفاظ بالتركيز يعني أن النوافذ الأخرى لا تستطيع أخذ لوحة المفاتيح حتى يُجاب عن الطلب أو تنتهي مهلته."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "أخذ تركيز لوحة المفاتيح"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "أخذ تركيز لوحة المفاتيح والاحتفاظ به"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "ترك التركيز حيث هو (انقر أو استخدم IPC للكتابة)"
+  },
+  "Open automatically": {
+    "Open automatically": "الفتح تلقائيًا"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "عرض الطلب فور وصوله. عند التعطيل ينتظر في الشريط حتى تنقر عليه أو تنفّذ: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "إرسال إشعار"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "إرسال إشعار عند الحاجة إلى عبارة مرور."
+  },
+  "Notification icon": {
+    "Notification icon": "أيقونة الإشعار"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "اسم أيقونة Freedesktop أو مسار مطلق إلى صورة."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "إظهار البرنامج الطالب"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "تسمية العملية التي تطلب عبارة المرور. هذا يسهّل كشف الطلبات المزيّفة."
+  },
+  "Show the countdown": {
+    "Show the countdown": "إظهار العدّ التنازلي"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "عرض الوقت المتبقي قبل انتهاء مهلة الطلب."
+  }
+}

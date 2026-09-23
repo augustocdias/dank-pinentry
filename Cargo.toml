@@ -1,0 +1,25 @@
+[package]
+name = "dank-pinentry"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/augustocdias/dank-pinentry"
+description = "A pinentry with a TTY frontend and a DankMaterialShell plugin frontend"
+
+[dependencies]
+libc = "0.2"
+zeroize = { version = "1", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# Only the TOML backend; the default feature set also pulls in yaml, ini, ron
+# and json5 parsers this has no use for.
+config = { version = "0.15", default-features = false, features = ["toml"] }
+# default-features off drops the colour/suggestion machinery (anstream, strsim,
+# ...) which a pinentry has no use for.
+clap = { version = "4", default-features = false, features = [
+  "std",
+  "derive",
+  "help",
+  "usage",
+  "error-context",
+] }

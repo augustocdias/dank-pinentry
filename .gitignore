@@ -1,0 +1,6 @@
+/target
+/ratarget
+/result
+/result-*
+*.swp
+.direnv/

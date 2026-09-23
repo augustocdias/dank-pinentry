@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "Cần có %1"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "Không tìm thấy chương trình %1 trong PATH, ~/.local/bin hay /usr/local/bin. Plugin này chỉ vẽ lời nhắc; gpg-agent giao tiếp với chương trình. Hãy cài đặt nó, đặt làm pinentry-program trong ~/.gnupg/gpg-agent.conf rồi chạy: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Được yêu cầu bởi %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "Hủy"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Cần cụm mật khẩu"
+  },
+  "Passphrase": {
+    "Passphrase": "Cụm mật khẩu"
+  },
+  "Repeat": {
+    "Repeat": "Nhập lại"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "Các cụm mật khẩu không khớp"
+  },
+  "No": {
+    "No": "Không"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Không có chỗ để hiển thị lời nhắc cụm mật khẩu"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Thêm tiện ích DankBar Pinentry vào một thanh ngang hoặc thay đổi vị trí của nó. Lời nhắc sẽ chờ cho đến khi hết thời gian."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Cần xác nhận"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Thông báo từ gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Cần chương trình %1, được đặt làm pinentry-program trong gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Vị trí"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Nơi lời nhắc xuất hiện trên màn hình. \"Trong thanh\" cần tiện ích DankBar Pinentry trên một thanh ngang."
+  },
+  "In the bar": {
+    "In the bar": "Trong thanh"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Giữa màn hình (hộp thoại)"
+  },
+  "Top edge": {
+    "Top edge": "Cạnh trên"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Cạnh dưới"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Hiển thị chữ trong thanh"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Hiển thị mô tả, lỗi và chương trình yêu cầu trong thanh. Yêu cầu xác nhận luôn hiển thị câu hỏi của nó."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Chỉ áp dụng khi lời nhắc nằm trong thanh."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Làm tối màn hình"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Không khả dụng khi lời nhắc nằm trong thanh."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Làm tối mọi thứ phía sau lời nhắc."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Tiêu điểm bàn phím"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Phím Escape hủy lời nhắc ở mọi chế độ. Giữ tiêu điểm nghĩa là các cửa sổ khác không thể lấy bàn phím cho đến khi lời nhắc được trả lời hoặc hết thời gian."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Lấy tiêu điểm bàn phím"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Lấy và giữ tiêu điểm bàn phím"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Để nguyên tiêu điểm (nhấp hoặc dùng IPC để nhập)"
+  },
+  "Open automatically": {
+    "Open automatically": "Tự động mở"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Hiển thị lời nhắc ngay khi nó đến. Khi tắt, nó chờ trong thanh cho đến khi bạn nhấp vào hoặc chạy: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Gửi thông báo"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Gửi thông báo khi cần cụm mật khẩu."
+  },
+  "Notification icon": {
+    "Notification icon": "Biểu tượng thông báo"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Tên biểu tượng Freedesktop hoặc đường dẫn tuyệt đối tới một hình ảnh."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Hiển thị chương trình yêu cầu"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Nêu tên tiến trình đang yêu cầu cụm mật khẩu. Giúp dễ nhận ra lời nhắc giả mạo hơn."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Hiển thị đếm ngược"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Hiển thị thời gian còn lại trước khi lời nhắc hết hạn."
+  }
+}

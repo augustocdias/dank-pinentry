@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 נדרש"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "התוכנה %1 לא נמצאה ב-PATH, ב-‎~/.local/bin או ב-‎/usr/local/bin. תוסף זה רק מצייר את הבקשה; gpg-agent מתקשר עם התוכנה. יש להתקין אותה, להגדיר אותה כ-pinentry-program בקובץ ‎~/.gnupg/gpg-agent.conf ואז להריץ: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "התבקש על ידי %1"
+  },
+  "OK": {
+    "OK": "אישור"
+  },
+  "Cancel": {
+    "Cancel": "ביטול"
+  },
+  "Passphrase required": {
+    "Passphrase required": "נדרשת מילת צופן"
+  },
+  "Passphrase": {
+    "Passphrase": "מילת צופן"
+  },
+  "Repeat": {
+    "Repeat": "חזרה"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "מילות הצופן אינן תואמות"
+  },
+  "No": {
+    "No": "לא"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "אין היכן להציג את בקשת מילת הצופן"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "יש להוסיף את הווידג׳ט DankBar Pinentry לסרגל אופקי או לשנות את מיקומו. הבקשה ממתינה עד שיפוג תוקפה."
+  },
+  "Confirmation required": {
+    "Confirmation required": "נדרש אישור"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "הודעה מ-gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "דורש את התוכנה %1, מוגדרת כ-pinentry-program בקובץ gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "מיקום"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "היכן הבקשה מופיעה על המסך. „בסרגל” דורש את הווידג׳ט DankBar Pinentry בסרגל אופקי."
+  },
+  "In the bar": {
+    "In the bar": "בסרגל"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "מרכז (תיבת דו-שיח)"
+  },
+  "Top edge": {
+    "Top edge": "קצה עליון"
+  },
+  "Bottom edge": {
+    "Bottom edge": "קצה תחתון"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "הצגת טקסט בסרגל"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "הצגת התיאור, השגיאות והתוכנה המבקשת בסרגל. בקשות אישור תמיד מציגות את השאלה שלהן."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "חל רק כשהבקשה נמצאת בסרגל."
+  },
+  "Dim the screen": {
+    "Dim the screen": "עמעום המסך"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "לא זמין כשהבקשה נמצאת בסרגל."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "עמעום כל מה שמאחורי הבקשה."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "מיקוד מקלדת"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape מבטל את הבקשה בכל מצב. החזקת המיקוד פירושה שחלונות אחרים לא יוכלו לקבל את המקלדת עד שהבקשה תיענה או יפוג תוקפה."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "לקיחת מיקוד המקלדת"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "לקיחת מיקוד המקלדת והחזקתו"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "השארת המיקוד במקומו (לחיצה או IPC להקלדה)"
+  },
+  "Open automatically": {
+    "Open automatically": "פתיחה אוטומטית"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "הצגת הבקשה מיד כשהיא מגיעה. כשהאפשרות כבויה, הבקשה ממתינה בסרגל עד שלוחצים עליה או מריצים: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "שליחת התראה"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "שליחת התראה כשנדרשת מילת צופן."
+  },
+  "Notification icon": {
+    "Notification icon": "סמל ההתראה"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "שם סמל של Freedesktop או נתיב מוחלט לתמונה."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "הצגת התוכנה המבקשת"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "ציון התהליך שמבקש את מילת הצופן. כך קל יותר לזהות בקשה מזויפת."
+  },
+  "Show the countdown": {
+    "Show the countdown": "הצגת הספירה לאחור"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "הצגת הזמן שנותר עד שיפוג תוקף הבקשה."
+  }
+}

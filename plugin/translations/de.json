@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 wird benötigt"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "Das Programm %1 wurde weder im PATH noch in ~/.local/bin oder /usr/local/bin gefunden. Dieses Plugin zeichnet nur die Eingabe; gpg-agent kommuniziert mit dem Programm. Installiere es, trage es als pinentry-program in ~/.gnupg/gpg-agent.conf ein und führe dann aus: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Angefordert von %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "Abbrechen"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Passphrase erforderlich"
+  },
+  "Passphrase": {
+    "Passphrase": "Passphrase"
+  },
+  "Repeat": {
+    "Repeat": "Wiederholen"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "Die Passphrasen stimmen nicht überein"
+  },
+  "No": {
+    "No": "Nein"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Kein Platz für die Passphrase-Abfrage"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Füge das DankBar-Pinentry-Widget zu einer horizontalen Leiste hinzu oder ändere die Platzierung. Die Abfrage wartet, bis sie abläuft."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Bestätigung erforderlich"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Nachricht von gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Benötigt das Programm %1, eingetragen als pinentry-program in gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Platzierung"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Wo die Abfrage auf dem Bildschirm erscheint. „In der Leiste“ erfordert das DankBar-Pinentry-Widget in einer horizontalen Leiste."
+  },
+  "In the bar": {
+    "In the bar": "In der Leiste"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Mitte (Dialog)"
+  },
+  "Top edge": {
+    "Top edge": "Oberer Rand"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Unterer Rand"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Text in der Leiste anzeigen"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Beschreibung, Fehler und das anfragende Programm in der Leiste anzeigen. Bestätigungen zeigen ihre Frage immer an."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Gilt nur, wenn die Abfrage in der Leiste erscheint."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Bildschirm abdunkeln"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Nicht verfügbar, wenn die Abfrage in der Leiste erscheint."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Alles hinter der Abfrage abdunkeln."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Tastaturfokus"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape bricht die Abfrage in jedem Modus ab. Fokus halten bedeutet, dass andere Fenster die Tastatur erst bekommen, wenn die Abfrage beantwortet oder abgelaufen ist."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Tastaturfokus übernehmen"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Tastaturfokus übernehmen und halten"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Fokus lassen, wo er ist (klicken oder IPC zum Tippen)"
+  },
+  "Open automatically": {
+    "Open automatically": "Automatisch öffnen"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Die Abfrage sofort bei Eingang anzeigen. Wenn aus, wartet sie in der Leiste, bis du sie anklickst oder ausführst: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Benachrichtigung senden"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Eine Benachrichtigung senden, wenn eine Passphrase benötigt wird."
+  },
+  "Notification icon": {
+    "Notification icon": "Benachrichtigungssymbol"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop-Symbolname oder absoluter Pfad zu einem Bild."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Anfragendes Programm anzeigen"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Den Prozess nennen, der nach der Passphrase fragt. So lässt sich eine gefälschte Abfrage leichter erkennen."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Countdown anzeigen"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Anzeigen, wie viel Zeit bleibt, bis die Abfrage abläuft."
+  }
+}

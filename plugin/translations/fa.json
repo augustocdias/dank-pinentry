@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 لازم است"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "برنامهٔ %1 در PATH، ‏~/.local/bin یا ‏/usr/local/bin پیدا نشد. این افزونه فقط درخواست را نمایش می‌دهد؛ gpg-agent با برنامه ارتباط دارد. آن را نصب کنید، در ‏~/.gnupg/gpg-agent.conf به‌عنوان pinentry-program تنظیمش کنید و سپس اجرا کنید: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "درخواست‌شده توسط %1"
+  },
+  "OK": {
+    "OK": "تأیید"
+  },
+  "Cancel": {
+    "Cancel": "لغو"
+  },
+  "Passphrase required": {
+    "Passphrase required": "عبارت عبور لازم است"
+  },
+  "Passphrase": {
+    "Passphrase": "عبارت عبور"
+  },
+  "Repeat": {
+    "Repeat": "تکرار"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "عبارت‌های عبور یکسان نیستند"
+  },
+  "No": {
+    "No": "خیر"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "جایی برای نمایش درخواست عبارت عبور نیست"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "ابزارک DankBar Pinentry را به یک نوار افقی اضافه کنید یا جایگاهش را تغییر دهید. درخواست تا پایان مهلتش منتظر می‌ماند."
+  },
+  "Confirmation required": {
+    "Confirmation required": "تأیید لازم است"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "پیام از gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "به برنامهٔ %1 نیاز دارد که در gpg-agent.conf به‌عنوان pinentry-program تنظیم شده باشد."
+  },
+  "Placement": {
+    "Placement": "جایگاه"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "جایی که درخواست روی صفحه ظاهر می‌شود. گزینهٔ «در نوار» به ابزارک DankBar Pinentry در یک نوار افقی نیاز دارد."
+  },
+  "In the bar": {
+    "In the bar": "در نوار"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "وسط (کادر گفتگو)"
+  },
+  "Top edge": {
+    "Top edge": "لبهٔ بالا"
+  },
+  "Bottom edge": {
+    "Bottom edge": "لبهٔ پایین"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "نمایش متن در نوار"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "نمایش توضیح، خطاها و برنامهٔ درخواست‌کننده در نوار. درخواست‌های تأیید همیشه پرسش خود را نشان می‌دهند."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "فقط وقتی درخواست در نوار است اعمال می‌شود."
+  },
+  "Dim the screen": {
+    "Dim the screen": "تیره کردن صفحه"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "وقتی درخواست در نوار است در دسترس نیست."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "تیره کردن همه‌چیز پشت درخواست."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "تمرکز صفحه‌کلید"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "کلید Escape در هر حالتی درخواست را لغو می‌کند. نگه داشتن تمرکز یعنی پنجره‌های دیگر تا پاسخ داده شدن یا پایان مهلت درخواست نمی‌توانند صفحه‌کلید را بگیرند."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "گرفتن تمرکز صفحه‌کلید"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "گرفتن و نگه داشتن تمرکز صفحه‌کلید"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "تمرکز را همان‌جا که هست رها کن (برای تایپ کلیک کنید یا از IPC استفاده کنید)"
+  },
+  "Open automatically": {
+    "Open automatically": "باز شدن خودکار"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "نمایش درخواست به‌محض رسیدن. اگر خاموش باشد، در نوار منتظر می‌ماند تا روی آن کلیک کنید یا اجرا کنید: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "ارسال اعلان"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "ارسال اعلان وقتی عبارت عبور لازم است."
+  },
+  "Notification icon": {
+    "Notification icon": "نماد اعلان"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "نام نماد Freedesktop یا مسیر مطلق یک تصویر."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "نمایش برنامهٔ درخواست‌کننده"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "نام بردن از فرایندی که عبارت عبور را می‌خواهد. تشخیص درخواست جعلی را آسان‌تر می‌کند."
+  },
+  "Show the countdown": {
+    "Show the countdown": "نمایش شمارش معکوس"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "نمایش زمان باقی‌مانده تا پایان مهلت درخواست."
+  }
+}

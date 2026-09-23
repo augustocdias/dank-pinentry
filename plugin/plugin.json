@@ -1,0 +1,19 @@
+{
+  "id": "dankbarPinentry",
+  "name": "DankBar Pinentry",
+  "description": "Renders GPG and SSH passphrase prompts inside DankMaterialShell, paired with the dank-pinentry binary.",
+  "version": "0.1.0",
+  "author": "augustocdias",
+  "icon": "vpn_key",
+  "type": "composite",
+  "capabilities": ["daemon", "dankbar-widget", "authentication", "gpg"],
+  "components": {
+    "daemon": "./PinentryDaemon.qml",
+    "widget": "./PinentryBarWidget.qml"
+  },
+  "settings": "./PinentrySettings.qml",
+  "startupCheck": "./DependencyCheck.qml",
+  "dependencies": ["dank-pinentry"],
+  "permissions": ["settings_read", "settings_write"],
+  "requires_dms": ">=1.7.0"
+}

@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 é necessário"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "O programa %1 não foi encontrado no PATH, em ~/.local/bin nem em /usr/local/bin. Este plugin apenas desenha a solicitação; o gpg-agent se comunica com o programa. Instale-o, defina-o como pinentry-program em ~/.gnupg/gpg-agent.conf e então execute: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Solicitado por %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "Cancelar"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Frase secreta necessária"
+  },
+  "Passphrase": {
+    "Passphrase": "Frase secreta"
+  },
+  "Repeat": {
+    "Repeat": "Repetir"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "As frases secretas não coincidem"
+  },
+  "No": {
+    "No": "Não"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Nenhum lugar para mostrar a solicitação de frase secreta"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Adicione o widget DankBar Pinentry a uma barra horizontal ou mude a posição. A solicitação aguarda até expirar."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Confirmação necessária"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Mensagem do gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Requer o programa %1, definido como pinentry-program em gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Posição"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Onde a solicitação aparece na tela. \"Na barra\" requer o widget DankBar Pinentry em uma barra horizontal."
+  },
+  "In the bar": {
+    "In the bar": "Na barra"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Centro (diálogo)"
+  },
+  "Top edge": {
+    "Top edge": "Borda superior"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Borda inferior"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Mostrar texto na barra"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Mostrar a descrição, os erros e o programa solicitante na barra. Confirmações sempre mostram a pergunta."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Só se aplica quando a solicitação está na barra."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Escurecer a tela"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Indisponível quando a solicitação está na barra."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Escurecer tudo atrás da solicitação."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Foco do teclado"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Esc cancela a solicitação em qualquer modo. Manter o foco significa que outras janelas não podem pegar o teclado até a solicitação ser respondida ou expirar."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Pegar o foco do teclado"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Pegar e manter o foco do teclado"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Deixar o foco onde está (clique ou IPC para digitar)"
+  },
+  "Open automatically": {
+    "Open automatically": "Abrir automaticamente"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Mostrar a solicitação assim que chegar. Desativado, ela aguarda na barra até você clicar nela ou executar: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Enviar uma notificação"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Enviar uma notificação quando uma frase secreta for necessária."
+  },
+  "Notification icon": {
+    "Notification icon": "Ícone da notificação"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Nome de ícone Freedesktop ou caminho absoluto para uma imagem."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Mostrar o programa solicitante"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Mostrar o processo que pede a frase secreta. Facilita identificar uma solicitação falsa."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Mostrar a contagem regressiva"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Mostrar quanto tempo resta até a solicitação expirar."
+  }
+}

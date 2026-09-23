@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "Требуется %1"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "Программа %1 не найдена ни в PATH, ни в ~/.local/bin, ни в /usr/local/bin. Этот плагин только рисует запрос; gpg-agent общается с программой. Установите её, укажите как pinentry-program в ~/.gnupg/gpg-agent.conf и выполните: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Запрошено: %1"
+  },
+  "OK": {
+    "OK": "ОК"
+  },
+  "Cancel": {
+    "Cancel": "Отмена"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Требуется фраза-пароль"
+  },
+  "Passphrase": {
+    "Passphrase": "Фраза-пароль"
+  },
+  "Repeat": {
+    "Repeat": "Повторите"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "Фразы-пароли не совпадают"
+  },
+  "No": {
+    "No": "Нет"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Негде показать запрос фразы-пароля"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Добавьте виджет DankBar Pinentry на горизонтальную панель или измените расположение. Запрос будет ждать, пока не истечёт время."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Требуется подтверждение"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Сообщение от gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Требуется программа %1, указанная как pinentry-program в gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Расположение"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Где на экране появляется запрос. «На панели» требует виджета DankBar Pinentry на горизонтальной панели."
+  },
+  "In the bar": {
+    "In the bar": "На панели"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "По центру (диалог)"
+  },
+  "Top edge": {
+    "Top edge": "Верхний край"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Нижний край"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Показывать текст на панели"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Показывать на панели описание, ошибки и запрашивающую программу. Подтверждения всегда показывают свой вопрос."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Действует, только когда запрос на панели."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Затемнять экран"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Недоступно, когда запрос на панели."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Затемнять всё позади запроса."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Фокус клавиатуры"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape отменяет запрос в любом режиме. Удержание фокуса значит, что другие окна не получат клавиатуру, пока на запрос не ответят или не истечёт время."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Забирать фокус клавиатуры"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Забирать и удерживать фокус клавиатуры"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Оставлять фокус на месте (щелчок или IPC для ввода)"
+  },
+  "Open automatically": {
+    "Open automatically": "Открывать автоматически"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Показывать запрос сразу после поступления. Если выключено, он ждёт на панели, пока вы не щёлкнете по нему или не выполните: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Отправлять уведомление"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Отправлять уведомление, когда нужна фраза-пароль."
+  },
+  "Notification icon": {
+    "Notification icon": "Значок уведомления"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Имя значка Freedesktop или абсолютный путь к изображению."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Показывать запрашивающую программу"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Называть процесс, который запрашивает фразу-пароль. Так проще распознать поддельный запрос."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Показывать обратный отсчёт"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Показывать, сколько времени осталось до истечения запроса."
+  }
+}

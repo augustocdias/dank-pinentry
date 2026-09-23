@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 gerekli"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "%1 programı PATH içinde, ~/.local/bin veya /usr/local/bin dizininde bulunamadı. Bu eklenti yalnızca istemi çizer; gpg-agent programla konuşur. Programı kurun, ~/.gnupg/gpg-agent.conf içinde pinentry-program olarak ayarlayın ve ardından çalıştırın: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "İsteyen: %1"
+  },
+  "OK": {
+    "OK": "Tamam"
+  },
+  "Cancel": {
+    "Cancel": "İptal"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Parola gerekli"
+  },
+  "Passphrase": {
+    "Passphrase": "Parola"
+  },
+  "Repeat": {
+    "Repeat": "Tekrarla"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "Parolalar eşleşmiyor"
+  },
+  "No": {
+    "No": "Hayır"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Parola istemini gösterecek yer yok"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "DankBar Pinentry bileşenini yatay bir çubuğa ekleyin veya konumunu değiştirin. İstem, süresi dolana kadar bekler."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Onay gerekli"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "gpg-agent iletisi"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "gpg-agent.conf içinde pinentry-program olarak ayarlanmış %1 programını gerektirir."
+  },
+  "Placement": {
+    "Placement": "Konum"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "İstemin ekranda göründüğü yer. \"Çubukta\" seçeneği yatay bir çubukta DankBar Pinentry bileşenini gerektirir."
+  },
+  "In the bar": {
+    "In the bar": "Çubukta"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Orta (iletişim kutusu)"
+  },
+  "Top edge": {
+    "Top edge": "Üst kenar"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Alt kenar"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Çubukta metin göster"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Açıklamayı, hataları ve isteyen programı çubukta göster. Onaylar her zaman sorularını gösterir."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Yalnızca istem çubuktayken geçerlidir."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Ekranı karart"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "İstem çubuktayken kullanılamaz."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "İstemin arkasındaki her şeyi karart."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Klavye odağı"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape her modda istemi iptal eder. Odağı tutmak, istem yanıtlanana veya süresi dolana kadar diğer pencerelerin klavyeyi alamayacağı anlamına gelir."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Klavye odağını al"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Klavye odağını al ve tut"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Odağı olduğu yerde bırak (yazmak için tıkla veya IPC kullan)"
+  },
+  "Open automatically": {
+    "Open automatically": "Otomatik aç"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "İstemi gelir gelmez göster. Kapalıyken, ona tıklayana veya şunu çalıştırana kadar çubukta bekler: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Bildirim gönder"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Parola gerektiğinde bildirim gönder."
+  },
+  "Notification icon": {
+    "Notification icon": "Bildirim simgesi"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop simge adı veya bir görüntünün mutlak yolu."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "İsteyen programı göster"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Parolayı isteyen süreci belirt. Sahte bir istemi fark etmeyi kolaylaştırır."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Geri sayımı göster"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "İstemin süresi dolana kadar ne kadar kaldığını göster."
+  }
+}

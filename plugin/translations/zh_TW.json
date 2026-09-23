@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "需要 %1"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "在 PATH、~/.local/bin 和 /usr/local/bin 中都找不到 %1 程式。此外掛程式只負責繪製提示，gpg-agent 會與該程式通訊。請安裝它，在 ~/.gnupg/gpg-agent.conf 中將其設為 pinentry-program，然後執行：%2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "請求者：%1"
+  },
+  "OK": {
+    "OK": "確定"
+  },
+  "Cancel": {
+    "Cancel": "取消"
+  },
+  "Passphrase required": {
+    "Passphrase required": "需要密碼片語"
+  },
+  "Passphrase": {
+    "Passphrase": "密碼片語"
+  },
+  "Repeat": {
+    "Repeat": "重複"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "密碼片語不相符"
+  },
+  "No": {
+    "No": "否"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "沒有地方顯示密碼片語提示"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "請將 DankBar Pinentry 小工具加入水平列，或變更其位置。提示會一直等待直到逾時。"
+  },
+  "Confirmation required": {
+    "Confirmation required": "需要確認"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "來自 gpg-agent 的訊息"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "需要 %1 程式，並在 gpg-agent.conf 中將其設為 pinentry-program。"
+  },
+  "Placement": {
+    "Placement": "位置"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "提示在螢幕上出現的位置。「在列中」需要水平列上的 DankBar Pinentry 小工具。"
+  },
+  "In the bar": {
+    "In the bar": "在列中"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "置中（對話框）"
+  },
+  "Top edge": {
+    "Top edge": "上緣"
+  },
+  "Bottom edge": {
+    "Bottom edge": "下緣"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "在列中顯示文字"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "在列中顯示說明、錯誤和請求程式。確認請求一律顯示其問題。"
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "僅在提示位於列中時生效。"
+  },
+  "Dim the screen": {
+    "Dim the screen": "調暗螢幕"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "提示位於列中時無法使用。"
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "調暗提示後方的所有內容。"
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "鍵盤焦點"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "在任何模式下，Esc 都會取消提示。保持焦點表示在提示獲得回應或逾時之前，其他視窗無法取得鍵盤。"
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "取得鍵盤焦點"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "取得並保持鍵盤焦點"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "保持焦點不變（點擊或使用 IPC 輸入）"
+  },
+  "Open automatically": {
+    "Open automatically": "自動開啟"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "提示一到就顯示。關閉後，它會在列中等待，直到你點擊它或執行：%1"
+  },
+  "Send a notification": {
+    "Send a notification": "傳送通知"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "需要密碼片語時傳送通知。"
+  },
+  "Notification icon": {
+    "Notification icon": "通知圖示"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop 圖示名稱，或圖片的絕對路徑。"
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "顯示請求程式"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "顯示請求密碼片語的程序，更容易辨識偽造的提示。"
+  },
+  "Show the countdown": {
+    "Show the countdown": "顯示倒數計時"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "顯示提示逾時前的剩餘時間。"
+  }
+}

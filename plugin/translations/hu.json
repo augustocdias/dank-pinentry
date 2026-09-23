@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 szükséges"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "A(z) %1 program nem található a PATH-ban, a ~/.local/bin vagy a /usr/local/bin könyvtárban. Ez a bővítmény csak megjeleníti a kérést; a gpg-agent a programmal kommunikál. Telepítse, állítsa be pinentry-program értékként a ~/.gnupg/gpg-agent.conf fájlban, majd futtassa: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Kérelmező: %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "Mégse"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Jelmondat szükséges"
+  },
+  "Passphrase": {
+    "Passphrase": "Jelmondat"
+  },
+  "Repeat": {
+    "Repeat": "Ismétlés"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "A jelmondatok nem egyeznek"
+  },
+  "No": {
+    "No": "Nem"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Nincs hol megjeleníteni a jelmondatkérést"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Adja hozzá a DankBar Pinentry modult egy vízszintes sávhoz, vagy módosítsa az elhelyezését. A kérés az időkorlát lejártáig vár."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Megerősítés szükséges"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Üzenet a gpg-agenttől"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "A(z) %1 program szükséges, pinentry-program értékként beállítva a gpg-agent.conf fájlban."
+  },
+  "Placement": {
+    "Placement": "Elhelyezés"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Hol jelenjen meg a kérés a képernyőn. A „Sávban” beállításhoz a DankBar Pinentry modul kell egy vízszintes sávban."
+  },
+  "In the bar": {
+    "In the bar": "Sávban"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Középen (párbeszédablak)"
+  },
+  "Top edge": {
+    "Top edge": "Felső szél"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Alsó szél"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Szöveg megjelenítése a sávban"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "A leírás, a hibák és a kérelmező program megjelenítése a sávban. A megerősítések mindig mutatják a kérdésüket."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Csak akkor érvényes, ha a kérés a sávban van."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Képernyő elsötétítése"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Nem érhető el, ha a kérés a sávban van."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Minden elsötétítése a kérés mögött."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Billentyűzetfókusz"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Az Escape minden módban megszakítja a kérést. A fókusz megtartása azt jelenti, hogy más ablakok nem kapják meg a billentyűzetet, amíg a kérésre nem válaszolnak vagy le nem jár."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Billentyűzetfókusz átvétele"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Billentyűzetfókusz átvétele és megtartása"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Fókusz meghagyása (kattintás vagy IPC a gépeléshez)"
+  },
+  "Open automatically": {
+    "Open automatically": "Automatikus megnyitás"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "A kérés megjelenítése azonnal, ahogy megérkezik. Kikapcsolva a sávban vár, amíg rá nem kattint vagy le nem futtatja: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Értesítés küldése"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Értesítés küldése, ha jelmondat szükséges."
+  },
+  "Notification icon": {
+    "Notification icon": "Értesítés ikonja"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop ikonnév vagy egy kép abszolút elérési útja."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Kérelmező program megjelenítése"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "A jelmondatot kérő folyamat megnevezése. Így könnyebb felismerni egy hamis kérést."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Visszaszámlálás megjelenítése"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Mennyi idő van hátra a kérés lejártáig."
+  }
+}

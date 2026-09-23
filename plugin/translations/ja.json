@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 が必要です"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "%1 が PATH、~/.local/bin、/usr/local/bin のいずれにも見つかりません。このプラグインはプロンプトを表示するだけで、gpg-agent はそのプログラムと通信します。インストールして ~/.gnupg/gpg-agent.conf の pinentry-program に設定し、次を実行してください: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "要求元: %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "キャンセル"
+  },
+  "Passphrase required": {
+    "Passphrase required": "パスフレーズが必要です"
+  },
+  "Passphrase": {
+    "Passphrase": "パスフレーズ"
+  },
+  "Repeat": {
+    "Repeat": "再入力"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "パスフレーズが一致しません"
+  },
+  "No": {
+    "No": "いいえ"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "パスフレーズのプロンプトを表示する場所がありません"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "DankBar Pinentry ウィジェットを水平バーに追加するか、配置を変更してください。プロンプトはタイムアウトするまで待機します。"
+  },
+  "Confirmation required": {
+    "Confirmation required": "確認が必要です"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "gpg-agent からのメッセージ"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "gpg-agent.conf の pinentry-program に設定された %1 が必要です。"
+  },
+  "Placement": {
+    "Placement": "配置"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "プロンプトを表示する画面上の場所。「バー内」には水平バー上の DankBar Pinentry ウィジェットが必要です。"
+  },
+  "In the bar": {
+    "In the bar": "バー内"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "中央（ダイアログ）"
+  },
+  "Top edge": {
+    "Top edge": "上端"
+  },
+  "Bottom edge": {
+    "Bottom edge": "下端"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "バーにテキストを表示"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "説明、エラー、要求元のプログラムをバーに表示します。確認は常に質問を表示します。"
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "プロンプトがバー内にある場合のみ有効です。"
+  },
+  "Dim the screen": {
+    "Dim the screen": "画面を暗くする"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "プロンプトがバー内にある場合は使用できません。"
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "プロンプトの背後をすべて暗くします。"
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "キーボードフォーカス"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Esc はどのモードでもプロンプトをキャンセルします。フォーカスを保持すると、プロンプトに応答するかタイムアウトするまで他のウィンドウはキーボードを取得できません。"
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "キーボードフォーカスを取る"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "キーボードフォーカスを取って保持する"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "フォーカスはそのまま（入力はクリックか IPC で）"
+  },
+  "Open automatically": {
+    "Open automatically": "自動的に開く"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "届いたらすぐにプロンプトを表示します。オフにすると、クリックするか次を実行するまでバーで待機します: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "通知を送る"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "パスフレーズが必要なときに通知を送ります。"
+  },
+  "Notification icon": {
+    "Notification icon": "通知アイコン"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop のアイコン名、または画像への絶対パス。"
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "要求元のプログラムを表示"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "パスフレーズを要求しているプロセスを表示します。偽のプロンプトを見分けやすくなります。"
+  },
+  "Show the countdown": {
+    "Show the countdown": "カウントダウンを表示"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "プロンプトが期限切れになるまでの残り時間を表示します。"
+  }
+}

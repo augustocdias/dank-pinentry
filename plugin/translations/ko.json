@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1이(가) 필요합니다"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "%1 프로그램을 PATH, ~/.local/bin, /usr/local/bin 어디에서도 찾을 수 없습니다. 이 플러그인은 프롬프트만 그리며 gpg-agent는 이 프로그램과 통신합니다. 설치한 뒤 ~/.gnupg/gpg-agent.conf에 pinentry-program으로 지정하고 다음을 실행하세요: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "요청한 프로그램: %1"
+  },
+  "OK": {
+    "OK": "확인"
+  },
+  "Cancel": {
+    "Cancel": "취소"
+  },
+  "Passphrase required": {
+    "Passphrase required": "암호 문구가 필요합니다"
+  },
+  "Passphrase": {
+    "Passphrase": "암호 문구"
+  },
+  "Repeat": {
+    "Repeat": "다시 입력"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "암호 문구가 일치하지 않습니다"
+  },
+  "No": {
+    "No": "아니요"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "암호 문구 프롬프트를 표시할 곳이 없습니다"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "DankBar Pinentry 위젯을 가로 바에 추가하거나 위치를 변경하세요. 프롬프트는 시간이 초과될 때까지 기다립니다."
+  },
+  "Confirmation required": {
+    "Confirmation required": "확인이 필요합니다"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "gpg-agent 메시지"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "gpg-agent.conf에 pinentry-program으로 지정된 %1 프로그램이 필요합니다."
+  },
+  "Placement": {
+    "Placement": "위치"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "화면에서 프롬프트가 나타나는 곳입니다. '바 안'을 사용하려면 가로 바에 DankBar Pinentry 위젯이 있어야 합니다."
+  },
+  "In the bar": {
+    "In the bar": "바 안"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "가운데(대화 상자)"
+  },
+  "Top edge": {
+    "Top edge": "위쪽 가장자리"
+  },
+  "Bottom edge": {
+    "Bottom edge": "아래쪽 가장자리"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "바에 텍스트 표시"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "설명, 오류, 요청한 프로그램을 바에 표시합니다. 확인 요청은 항상 질문을 표시합니다."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "프롬프트가 바 안에 있을 때만 적용됩니다."
+  },
+  "Dim the screen": {
+    "Dim the screen": "화면 어둡게"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "프롬프트가 바 안에 있을 때는 사용할 수 없습니다."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "프롬프트 뒤의 모든 것을 어둡게 합니다."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "키보드 포커스"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Esc는 모든 모드에서 프롬프트를 취소합니다. 포커스를 유지하면 프롬프트에 응답하거나 시간이 초과될 때까지 다른 창이 키보드를 가져갈 수 없습니다."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "키보드 포커스 가져오기"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "키보드 포커스 가져와 유지하기"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "포커스 그대로 두기(입력하려면 클릭하거나 IPC 사용)"
+  },
+  "Open automatically": {
+    "Open automatically": "자동으로 열기"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "프롬프트가 도착하는 즉시 표시합니다. 끄면 클릭하거나 다음을 실행할 때까지 바에서 기다립니다: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "알림 보내기"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "암호 문구가 필요할 때 알림을 보냅니다."
+  },
+  "Notification icon": {
+    "Notification icon": "알림 아이콘"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Freedesktop 아이콘 이름 또는 이미지의 절대 경로입니다."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "요청한 프로그램 표시"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "암호 문구를 요청하는 프로세스를 표시합니다. 가짜 프롬프트를 알아보기 쉬워집니다."
+  },
+  "Show the countdown": {
+    "Show the countdown": "카운트다운 표시"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "프롬프트가 만료되기까지 남은 시간을 표시합니다."
+  }
+}

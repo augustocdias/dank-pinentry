@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "%1 estas bezonata"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "La programo %1 ne troviĝis en PATH, en ~/.local/bin nek en /usr/local/bin. Ĉi tiu kromprogramo nur desegnas la peton; gpg-agent komunikas kun la programo. Instalu ĝin, agordu ĝin kiel pinentry-program en ~/.gnupg/gpg-agent.conf, kaj poste rulu: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Petita de %1"
+  },
+  "OK": {
+    "OK": "Bone"
+  },
+  "Cancel": {
+    "Cancel": "Nuligi"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Pasfrazo necesas"
+  },
+  "Passphrase": {
+    "Passphrase": "Pasfrazo"
+  },
+  "Repeat": {
+    "Repeat": "Ripetu"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "La pasfrazoj ne kongruas"
+  },
+  "No": {
+    "No": "Ne"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Nenie montri la pasfrazan peton"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Aldonu la fenestraĵon DankBar Pinentry al horizontala breto aŭ ŝanĝu ĝian lokon. La peto atendas ĝis ĝi eksvalidiĝas."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Konfirmo necesas"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Mesaĝo de gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Bezonas la programon %1, agorditan kiel pinentry-program en gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Loko"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Kie la peto aperas sur la ekrano. „En la breto” bezonas la fenestraĵon DankBar Pinentry en horizontala breto."
+  },
+  "In the bar": {
+    "In the bar": "En la breto"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Centre (dialogo)"
+  },
+  "Top edge": {
+    "Top edge": "Supra rando"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Malsupra rando"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Montri tekston en la breto"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Montri la priskribon, erarojn kaj la petantan programon en la breto. Konfirmoj ĉiam montras sian demandon."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Validas nur kiam la peto estas en la breto."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Malheligi la ekranon"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Ne disponebla kiam la peto estas en la breto."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Malheligi ĉion malantaŭ la peto."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Klavara fokuso"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Eskapo nuligas la peton en ĉiu reĝimo. Teni la fokuson signifas, ke aliaj fenestroj ne ricevas la klavaron ĝis la peto estas respondita aŭ eksvalidiĝas."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Preni la klavaran fokuson"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Preni kaj teni la klavaran fokuson"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Lasi la fokuson kie ĝi estas (alklaku aŭ uzu IPC por tajpi)"
+  },
+  "Open automatically": {
+    "Open automatically": "Malfermi aŭtomate"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Montri la peton tuj kiam ĝi alvenas. Malŝaltite ĝi atendas en la breto ĝis vi alklakas ĝin aŭ rulas: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Sendi sciigon"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Sendi sciigon kiam pasfrazo estas bezonata."
+  },
+  "Notification icon": {
+    "Notification icon": "Sciiga piktogramo"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Nomo de Freedesktop-piktogramo aŭ absoluta vojo al bildo."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Montri la petantan programon"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Nomi la procezon, kiu petas la pasfrazon. Tiel falsan peton estas pli facile rimarki."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Montri la retronombradon"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Montri kiom da tempo restas antaŭ ol la peto eksvalidiĝas."
+  }
+}

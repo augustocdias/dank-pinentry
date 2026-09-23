@@ -1,0 +1,128 @@
+{
+  "%1 is required": {
+    "%1 is required": "Wymagany jest %1"
+  },
+  "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": {
+    "The %1 binary was not found on PATH, in ~/.local/bin or in /usr/local/bin. This plugin only draws the prompt; gpg-agent talks to the binary. Install it and set it as pinentry-program in ~/.gnupg/gpg-agent.conf, then run: %2": "Nie znaleziono programu %1 w PATH, w ~/.local/bin ani w /usr/local/bin. Ta wtyczka tylko rysuje monit; gpg-agent komunikuje się z programem. Zainstaluj go, ustaw jako pinentry-program w ~/.gnupg/gpg-agent.conf, a następnie uruchom: %2"
+  },
+  "Requested by %1": {
+    "Requested by %1": "Żądanie od: %1"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "Cancel": {
+    "Cancel": "Anuluj"
+  },
+  "Passphrase required": {
+    "Passphrase required": "Wymagane hasło"
+  },
+  "Passphrase": {
+    "Passphrase": "Hasło"
+  },
+  "Repeat": {
+    "Repeat": "Powtórz"
+  },
+  "Passphrases do not match": {
+    "Passphrases do not match": "Hasła nie są zgodne"
+  },
+  "No": {
+    "No": "Nie"
+  },
+  "Nowhere to show the passphrase prompt": {
+    "Nowhere to show the passphrase prompt": "Brak miejsca na wyświetlenie monitu o hasło"
+  },
+  "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": {
+    "Add the DankBar Pinentry widget to a horizontal bar, or change its placement. The prompt waits until it times out.": "Dodaj widżet DankBar Pinentry do poziomego paska lub zmień jego położenie. Monit czeka, aż upłynie jego czas."
+  },
+  "Confirmation required": {
+    "Confirmation required": "Wymagane potwierdzenie"
+  },
+  "Message from gpg-agent": {
+    "Message from gpg-agent": "Wiadomość od gpg-agent"
+  },
+  "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": {
+    "Requires the %1 binary, set as pinentry-program in gpg-agent.conf.": "Wymaga programu %1 ustawionego jako pinentry-program w gpg-agent.conf."
+  },
+  "Placement": {
+    "Placement": "Położenie"
+  },
+  "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": {
+    "Where the prompt appears on screen. In the bar requires the DankBar Pinentry widget in a horizontal bar.": "Gdzie monit pojawia się na ekranie. „Na pasku” wymaga widżetu DankBar Pinentry na poziomym pasku."
+  },
+  "In the bar": {
+    "In the bar": "Na pasku"
+  },
+  "Centre (dialog)": {
+    "Centre (dialog)": "Środek (okno dialogowe)"
+  },
+  "Top edge": {
+    "Top edge": "Górna krawędź"
+  },
+  "Bottom edge": {
+    "Bottom edge": "Dolna krawędź"
+  },
+  "Show text in the bar": {
+    "Show text in the bar": "Pokazuj tekst na pasku"
+  },
+  "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": {
+    "Show the description, errors and the requesting program in the bar. Confirmations always show their question.": "Pokazuj na pasku opis, błędy i program, który zgłasza żądanie. Potwierdzenia zawsze pokazują swoje pytanie."
+  },
+  "Only applies when the prompt is in the bar.": {
+    "Only applies when the prompt is in the bar.": "Dotyczy tylko monitu na pasku."
+  },
+  "Dim the screen": {
+    "Dim the screen": "Przyciemnij ekran"
+  },
+  "Not available when the prompt is in the bar.": {
+    "Not available when the prompt is in the bar.": "Niedostępne, gdy monit jest na pasku."
+  },
+  "Darken everything behind the prompt.": {
+    "Darken everything behind the prompt.": "Przyciemnij wszystko za monitem."
+  },
+  "Keyboard focus": {
+    "Keyboard focus": "Fokus klawiatury"
+  },
+  "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": {
+    "Escape cancels the prompt in every mode. Holding focus means other windows cannot take the keyboard until the prompt is answered or times out.": "Escape anuluje monit w każdym trybie. Trzymanie fokusu oznacza, że inne okna nie przejmą klawiatury, dopóki monit nie zostanie obsłużony lub nie wygaśnie."
+  },
+  "Take keyboard focus": {
+    "Take keyboard focus": "Przejmij fokus klawiatury"
+  },
+  "Take and hold keyboard focus": {
+    "Take and hold keyboard focus": "Przejmij i trzymaj fokus klawiatury"
+  },
+  "Leave focus where it is (click or IPC to type)": {
+    "Leave focus where it is (click or IPC to type)": "Zostaw fokus tam, gdzie jest (kliknij lub użyj IPC, aby pisać)"
+  },
+  "Open automatically": {
+    "Open automatically": "Otwieraj automatycznie"
+  },
+  "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": {
+    "Show the prompt as soon as it arrives. With this off it waits in the bar until you click it or run: %1": "Pokazuj monit od razu po nadejściu. Po wyłączeniu czeka na pasku, aż go klikniesz lub uruchomisz: %1"
+  },
+  "Send a notification": {
+    "Send a notification": "Wysyłaj powiadomienie"
+  },
+  "Post a notification when a passphrase is needed.": {
+    "Post a notification when a passphrase is needed.": "Wysyłaj powiadomienie, gdy potrzebne jest hasło."
+  },
+  "Notification icon": {
+    "Notification icon": "Ikona powiadomienia"
+  },
+  "Freedesktop icon name, or an absolute path to an image.": {
+    "Freedesktop icon name, or an absolute path to an image.": "Nazwa ikony Freedesktop lub bezwzględna ścieżka do obrazu."
+  },
+  "Show the requesting program": {
+    "Show the requesting program": "Pokazuj program zgłaszający żądanie"
+  },
+  "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": {
+    "Name the process asking for the passphrase. Makes a spoofed prompt easier to spot.": "Podaj nazwę procesu, który prosi o hasło. Ułatwia to rozpoznanie fałszywego monitu."
+  },
+  "Show the countdown": {
+    "Show the countdown": "Pokazuj odliczanie"
+  },
+  "Display how long is left before the prompt expires.": {
+    "Display how long is left before the prompt expires.": "Pokazuj, ile czasu zostało do wygaśnięcia monitu."
+  }
+}

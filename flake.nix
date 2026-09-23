@@ -107,7 +107,7 @@
         cfg = config.programs.dank-pinentry;
         inherit (lib) mkEnableOption mkOption mkIf types;
 
-        pluginSrc = "${self.packages.${pkgs.system}.dank-pinentry-plugin}/share/dms-plugins/dankbarPinentry";
+        pluginSrc = "${self.packages.${pkgs.stdenv.hostPlatform.system}.dank-pinentry-plugin}/share/dms-plugins/dankbarPinentry";
         # DMS's home-manager module goes by three names depending on where it
         # comes from (stable flake, flake, nixpkgs); the plugin registry's
         # module probes the same way.
@@ -122,7 +122,7 @@
 
           package = mkOption {
             type = types.package;
-            default = self.packages.${pkgs.system}.dank-pinentry;
+            default = self.packages.${pkgs.stdenv.hostPlatform.system}.dank-pinentry;
             description = "The dank-pinentry package to use.";
           };
 

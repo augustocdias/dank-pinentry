@@ -23,7 +23,7 @@ BINARY="$(cd "$(dirname "$0")/.." && pwd)/target/release/dank-pinentry"
 GNUPGHOME="$(mktemp -d /tmp/dank-pinentry-gpg.XXXXXX)"
 export GNUPGHOME
 
-# shellcheck disable=SC2329  # invoked indirectly, via the EXIT trap below
+# shellcheck disable=SC2317,SC2329  # invoked indirectly, via the EXIT trap below
 cleanup() {
 	# Stop the throwaway agent before removing its home, or it lingers
 	# holding a socket in a deleted directory.

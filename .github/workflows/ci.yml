@@ -45,8 +45,8 @@ jobs:
       - name: Upload binary for the integration job
         uses: actions/upload-artifact@v4
         with:
-          name: pinentry-dank
-          path: target/release/pinentry-dank
+          name: dank-pinentry
+          path: target/release/dank-pinentry
           retention-days: 1
 
   integration:
@@ -59,12 +59,12 @@ jobs:
       - name: Download binary
         uses: actions/download-artifact@v4
         with:
-          name: pinentry-dank
+          name: dank-pinentry
           path: target/release
 
       - name: Restore the executable bit
         # Artifacts do not preserve permissions.
-        run: chmod +x target/release/pinentry-dank
+        run: chmod +x target/release/dank-pinentry
 
       - name: Install gnupg
         run: |
@@ -75,11 +75,11 @@ jobs:
         # The terminal frontend opens the device named by OPTION ttyname
         # rather than reading stdin, so it cannot be tested by piping; a real
         # pty is required.
-        run: python3 scripts/test-tty.py target/release/pinentry-dank
+        run: python3 scripts/test-tty.py target/release/dank-pinentry
 
       - name: End-to-end with a real gpg-agent
         # Generates a key in a throwaway GNUPGHOME, signs, and verifies, with
-        # gpg-agent driving pinentry-dank for the passphrase.
+        # gpg-agent driving dank-pinentry for the passphrase.
         run: python3 scripts/test-gpg-auto.py
 
   plugin:
@@ -141,13 +141,11 @@ jobs:
 
       - uses: DeterminateSystems/nix-installer-action@main
 
-      - uses: DeterminateSystems/magic-nix-cache-action@main
-
       - name: Flake check
         run: nix flake check --print-build-logs
 
       - name: Build the binary
-        run: nix build .#pinentry-dank --print-build-logs
+        run: nix build .#dank-pinentry --print-build-logs
 
       - name: Build the plugin
-        run: nix build .#pinentry-dank-plugin --print-build-logs
+        run: nix build .#dank-pinentry-plugin --print-build-logs

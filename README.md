@@ -3,6 +3,8 @@
 A pinentry that draws its prompt either as an inline masked prompt on your
 terminal, or as a dialog inside [DankMaterialShell][dms].
 
+ https://github.com/user-attachments/assets/dcfea9bc-3341-4aac-bf41-0a62731d3914
+
 ```
 gpg-agent ──stdin/stdout (Assuan)──> dank-pinentry
                                           │

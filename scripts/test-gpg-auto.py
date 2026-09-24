@@ -81,6 +81,8 @@ def main():
         )
         proc.stdin.write(b"integration test payload\n")
         proc.stdin.close()
+        # Python < 3.13 communicate() flushes stdin even when it is closed.
+        proc.stdin = None
 
         # Wait for the prompt to be drawn on the pty before answering, so we
         # are genuinely responding to pinentry rather than racing it.

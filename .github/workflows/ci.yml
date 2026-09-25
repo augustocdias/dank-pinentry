@@ -46,7 +46,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dank-pinentry
-          path: target/release/dank-pinentry
+          path: |
+            target/release/dank-pinentry
+            target/release/dank-askpass
           retention-days: 1
 
   integration:
@@ -64,7 +66,7 @@ jobs:
 
       - name: Restore the executable bit
         # Artifacts do not preserve permissions.
-        run: chmod +x target/release/dank-pinentry
+        run: chmod +x target/release/dank-pinentry target/release/dank-askpass
 
       - name: Install gnupg
         run: |
@@ -76,6 +78,9 @@ jobs:
         # rather than reading stdin, so it cannot be tested by piping; a real
         # pty is required.
         run: python3 scripts/test-tty.py target/release/dank-pinentry
+
+      - name: Askpass, against a fake plugin socket
+        run: python3 scripts/test-askpass.py target/release/dank-askpass
 
       - name: End-to-end with a real gpg-agent
         # Generates a key in a throwaway GNUPGHOME, signs, and verifies, with

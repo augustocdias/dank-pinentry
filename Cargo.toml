@@ -1,10 +1,18 @@
 [package]
 name = "dank-pinentry"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 license = "MIT"
 repository = "https://github.com/augustocdias/dank-pinentry"
 description = "A pinentry with a TTY frontend and a DankMaterialShell plugin frontend"
+
+[[bin]]
+name = "dank-pinentry"
+path = "src/main.rs"
+
+[[bin]]
+name = "dank-askpass"
+path = "src/bin/askpass.rs"
 
 [dependencies]
 libc = "0.2"

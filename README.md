@@ -95,6 +95,8 @@ cargo build --release
 sudo install -Dm755 target/release/dank-pinentry /usr/local/bin/dank-pinentry
 ```
 
+For [askpass](#askpass) support, also install `target/release/dank-askpass`.
+
 Without root, install to `~/.local/bin/dank-pinentry` instead. The plugin
 finds the binary on `PATH`, in `~/.local/bin` or in `/usr/local/bin`.
 
@@ -238,6 +240,37 @@ Stock pinentry largely ignores this, which means any process can produce a
 passphrase box indistinguishable from a genuine one. Naming the requester
 makes a spoofed prompt easier to spot. Turn it off with `showOwner = false`.
 
+## Askpass
+
+`dank-askpass` is a separate, optional binary built from the same crate: an
+askpass program for `sudo -A` and ssh that draws its prompt through the same
+plugin. It talks to the plugin socket directly; gpg-agent and `dank-pinentry`
+are not involved.
+
+There is no terminal fallback. sudo and ssh only use an askpass when they
+cannot prompt on a terminal themselves, or were told not to, so without the
+plugin it just fails and they fall back to their own behaviour.
+
+With Nix:
+
+```nix
+programs.dank-pinentry.askpass.enable = true;  # sets SUDO_ASKPASS and SSH_ASKPASS
+# askpass.sudo = false; / askpass.ssh = false; to leave either unset
+```
+
+From source, install `target/release/dank-askpass` next to `dank-pinentry` and
+export the variables yourself:
+
+```sh
+export SUDO_ASKPASS=/usr/local/bin/dank-askpass
+export SSH_ASKPASS=/usr/local/bin/dank-askpass
+```
+
+ssh uses `SSH_ASKPASS` only without a terminal, unless
+`SSH_ASKPASS_REQUIRE=prefer` (or `force`) is set. Its confirmation
+(`SSH_ASKPASS_PROMPT=confirm`) and notification (`none`) prompts are drawn as
+confirm and message dialogs.
+
 ## Security
 
 The Rust side keeps the passphrase in an `mlock`ed buffer that is zeroed on
@@ -268,6 +301,7 @@ stays captured until the prompt times out.
 cargo test                          # unit + transcript tests
 python3 scripts/test-tty.py         # TTY frontend, driven through a pty
 python3 scripts/test-gpg-auto.py    # full end-to-end, real gpg-agent, no input needed
+python3 scripts/test-askpass.py     # dank-askpass against a fake plugin socket
 ./scripts/test-gpg-integration.sh dms   # interactive, exercises the DMS dialog
 ```
 

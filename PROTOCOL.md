@@ -8,6 +8,10 @@ plugin owns a stable well-known path and its lifetime is the shell's, while
 the binary is spawned once per prompt by gpg-agent. If the connection fails,
 the binary falls back to the terminal frontend rather than failing the prompt.
 
+`dank-askpass` is a second client of the same protocol. It sends a single
+`getpin`, `confirm` or `message` request (for ssh's `SSH_ASKPASS_PROMPT`
+modes) with the caller's prompt as `description`, and has no fallback.
+
 ## Transport
 
 | | |

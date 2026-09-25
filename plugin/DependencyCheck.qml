@@ -18,13 +18,22 @@ QtObject {
      */
     readonly property var extraPaths: ["$HOME/.local/bin", "/usr/local/bin", "/usr/bin"]
 
-    function check(done) {
-        const probes = ["command -v dank-pinentry >/dev/null 2>&1"];
+    function probe(binary) {
+        const probes = ["command -v " + binary + " >/dev/null 2>&1"];
         for (var i = 0; i < extraPaths.length; i++)
-            probes.push("test -x \"" + extraPaths[i] + "/dank-pinentry\"");
+            probes.push("test -x \"" + extraPaths[i] + "/" + binary + "\"");
+        return probes.join(" || ");
+    }
 
-        Proc.runCommand("dankbarPinentry.depCheck", ["sh", "-c", probes.join(" || ")], (stdout, exitCode) => {
-            if (exitCode === 0) {
+    function check(done) {
+        // Exit 1: dank-pinentry missing. Exit 2: only dank-askpass missing,
+        // which is optional, so it warns rather than blocking the plugin.
+        const script = "(" + probe("dank-pinentry") + ") || exit 1; (" + probe("dank-askpass") + ") || exit 2";
+
+        Proc.runCommand("dankbarPinentry.depCheck", ["sh", "-c", script], (stdout, exitCode) => {
+            if (exitCode === 0 || exitCode === 2) {
+                if (exitCode === 2)
+                    console.warn("[dankbarPinentry] dank-askpass not found; askpass prompts (SUDO_ASKPASS, SSH_ASKPASS) are unavailable");
                 done(null);
                 return;
             }

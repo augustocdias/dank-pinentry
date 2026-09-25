@@ -16,7 +16,7 @@
 
       dank-pinentry = pkgs.rustPlatform.buildRustPackage {
         pname = "dank-pinentry";
-        version = "0.1.0";
+        version = "0.2.0";
         src = ./.;
 
         # Using the checked-in lock file avoids having to track a vendor hash.
@@ -25,6 +25,14 @@
         # The pty-based tests need a terminal the sandbox does not provide;
         # the unit and transcript tests run fine.
         checkFlags = [];
+
+        # dank-askpass goes in its own output so installing the pinentry does
+        # not also put an askpass on PATH.
+        outputs = ["out" "askpass"];
+        postInstall = ''
+          mkdir -p "$askpass/bin"
+          mv "$out/bin/dank-askpass" "$askpass/bin/"
+        '';
 
         meta = with pkgs.lib; {
           description = "A pinentry with a TTY frontend and a DankMaterialShell plugin frontend";
@@ -38,7 +46,7 @@
       # The QML half. Installed as a DMS plugin directory.
       dank-pinentry-plugin = pkgs.stdenvNoCC.mkDerivation {
         pname = "dank-pinentry-plugin";
-        version = "0.1.0";
+        version = "0.2.0";
         src = ./plugin;
 
         dontBuild = true;
@@ -60,6 +68,7 @@
     in {
       packages = {
         inherit dank-pinentry dank-pinentry-plugin;
+        dank-askpass = dank-pinentry.askpass;
         default = dank-pinentry;
       };
 
@@ -141,6 +150,35 @@
             '';
           };
 
+          askpass = {
+            enable = mkEnableOption ''
+              dank-askpass, an askpass program drawing its prompt through the
+              DankMaterialShell plugin. Installs it and points the variables
+              selected below at it
+            '';
+
+            package = mkOption {
+              type = types.package;
+              default = self.packages.${pkgs.stdenv.hostPlatform.system}.dank-askpass;
+              description = "The dank-askpass package to use.";
+            };
+
+            sudo = mkOption {
+              type = types.bool;
+              default = true;
+              description = "Set `SUDO_ASKPASS`, used by `sudo -A`.";
+            };
+
+            ssh = mkOption {
+              type = types.bool;
+              default = true;
+              description = ''
+                Set `SSH_ASKPASS`. ssh only uses it without a terminal, or
+                with `SSH_ASKPASS_REQUIRE=prefer` or `force`.
+              '';
+            };
+          };
+
           configureGpgAgent = mkOption {
             type = types.bool;
             default = false;
@@ -214,6 +252,13 @@
                 pinentry-program ${cfg.package}/bin/dank-pinentry
               '';
             }
+
+            (mkIf cfg.askpass.enable {
+              home.packages = [cfg.askpass.package];
+              home.sessionVariables =
+                lib.optionalAttrs cfg.askpass.sudo {SUDO_ASKPASS = "${cfg.askpass.package}/bin/dank-askpass";}
+                // lib.optionalAttrs cfg.askpass.ssh {SSH_ASKPASS = "${cfg.askpass.package}/bin/dank-askpass";};
+            })
 
             (mkIf (cfg.installPlugin && dmsPluginOptions == []) {
               xdg.configFile."DankMaterialShell/plugins/dankbarPinentry".source = pluginSrc;

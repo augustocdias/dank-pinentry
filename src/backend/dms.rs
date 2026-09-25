@@ -22,63 +22,63 @@ pub const PROTOCOL_VERSION: u32 = 1;
 const PROBE_TIMEOUT: Duration = Duration::from_millis(750);
 
 #[derive(Debug, Serialize)]
-struct OwnerInfo {
-    pid: Option<u32>,
-    uid: Option<u32>,
-    host: Option<String>,
-    command: Option<String>,
+pub struct OwnerInfo {
+    pub pid: Option<u32>,
+    pub uid: Option<u32>,
+    pub host: Option<String>,
+    pub command: Option<String>,
 }
 
-#[derive(Debug, Serialize)]
-struct Request {
-    v: u32,
+#[derive(Debug, Default, Serialize)]
+pub struct Request {
+    pub v: u32,
     #[serde(rename = "type")]
-    kind: &'static str,
-    id: String,
+    pub kind: &'static str,
+    pub id: String,
     #[serde(skip_serializing_if = "Option::is_none")]
-    title: Option<String>,
+    pub title: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    description: Option<String>,
+    pub description: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    prompt: Option<String>,
+    pub prompt: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    error: Option<String>,
+    pub error: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    ok: Option<String>,
+    pub ok: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    cancel: Option<String>,
+    pub cancel: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    notok: Option<String>,
+    pub notok: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    repeat: Option<String>,
+    pub repeat: Option<String>,
     #[serde(rename = "repeatError", skip_serializing_if = "Option::is_none")]
-    repeat_error: Option<String>,
+    pub repeat_error: Option<String>,
     #[serde(rename = "qualityBar", skip_serializing_if = "Option::is_none")]
-    quality_bar: Option<String>,
+    pub quality_bar: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    keyinfo: Option<String>,
+    pub keyinfo: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    owner: Option<OwnerInfo>,
-    timeout: u32,
+    pub owner: Option<OwnerInfo>,
+    pub timeout: u32,
 }
 
 #[derive(Debug, Deserialize)]
-struct Reply {
+pub struct Reply {
     #[serde(default)]
-    v: u32,
+    pub v: u32,
     #[serde(rename = "type")]
-    kind: String,
+    pub kind: String,
     #[serde(default)]
-    id: Option<String>,
+    pub id: Option<String>,
     #[serde(default)]
-    pin: Option<String>,
+    pub pin: Option<String>,
     /// The prompt had the user type the passphrase twice.
     #[serde(default)]
-    repeated: bool,
+    pub repeated: bool,
     #[serde(default)]
-    outcome: Option<String>,
+    pub outcome: Option<String>,
     #[serde(default)]
-    message: Option<String>,
+    pub message: Option<String>,
 }
 
 pub struct DmsBackend {
@@ -151,7 +151,7 @@ impl DmsBackend {
 
     /// No read timeout: the user may take minutes, and the request's own
     /// `timeout` governs expiry.
-    fn prompt(&self, request: &Request) -> Result<Reply, AssuanError> {
+    pub fn prompt(&self, request: &Request) -> Result<Reply, AssuanError> {
         let stream = Self::connect(&self.socket_path)?;
         stream
             .set_read_timeout(None)
@@ -307,7 +307,7 @@ fn pin_from_reply(reply: Reply, state: &State) -> Result<PinResponse, AssuanErro
 }
 
 /// Non-cryptographic; only pairs a reply with its request.
-fn request_id() -> String {
+pub fn request_id() -> String {
     let nanos = std::time::SystemTime::now()
         .duration_since(std::time::UNIX_EPOCH)
         .map(|d| d.subsec_nanos())

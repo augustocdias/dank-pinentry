@@ -156,17 +156,6 @@ Item {
         }
     }
 
-    function stripHeightFor(request) {
-        let height = 96;
-        if (request && request.description)
-            height += 22;
-        if (request && request.error)
-            height += 22;
-        if (request && request.repeat)
-            height += 52;
-        return height;
-    }
-
     function contentHeightFor(request) {
         if (!request)
             return 220;
@@ -191,10 +180,9 @@ Item {
             readonly property Item contentRef: stripContent
 
             color: "transparent"
-            // Explicit, not derived from the content: a layout width-anchored
-            // to this window reports zero height on the first frame and the
-            // strip collapses.
-            implicitHeight: root.stripHeightFor(root.request)
+            // Floored: before the first layout pass the content reports only
+            // its padding, and a zero-height layer surface never maps.
+            implicitHeight: Math.max(96, Math.ceil(stripContent.implicitHeight))
 
             anchors {
                 left: true

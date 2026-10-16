@@ -99,7 +99,7 @@ Item {
         }
     }
 
-    DankModal {
+    DModal {
         id: centerModal
 
         layerNamespace: "dms:plugins:dank-pinentry"

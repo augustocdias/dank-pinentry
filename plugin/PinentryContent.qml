@@ -4,6 +4,7 @@ import QtQuick
 import QtQuick.Layouts
 import qs.Common
 import qs.Widgets
+import qs.DCommon.Widgets
 
 /**
  * The body of a prompt, free of window concerns so the centred dialog and the
@@ -99,7 +100,7 @@ FocusScope {
             Layout.fillWidth: true
             spacing: Theme.spacingM
 
-            DankIcon {
+            DIcon {
                 name: "vpn_key"
                 size: Theme.iconSize
                 color: Theme.primary
@@ -167,7 +168,7 @@ FocusScope {
             wrapMode: Text.WordWrap
         }
 
-        DankTextField {
+        DTextField {
             id: primaryField
 
             Layout.fillWidth: true
@@ -183,7 +184,7 @@ FocusScope {
             onAccepted: root.submit()
         }
 
-        DankTextField {
+        DTextField {
             id: repeatField
 
             Layout.fillWidth: true
@@ -216,7 +217,7 @@ FocusScope {
                 Layout.fillWidth: true
             }
 
-            DankButton {
+            DButton {
                 visible: !root.isMessage
                 text: stripAccelerator((root.request && root.request.cancel) || I18n.trFor("dankbarPinentry", "Cancel"))
                 backgroundColor: Theme.surfaceContainerHigh
@@ -224,7 +225,7 @@ FocusScope {
                 onClicked: root.cancelled()
             }
 
-            DankButton {
+            DButton {
                 visible: !root.isPinPrompt && !root.isMessage && !!(root.request && root.request.notok)
                 text: stripAccelerator((root.request && root.request.notok) || I18n.trFor("dankbarPinentry", "No"))
                 backgroundColor: Theme.surfaceContainerHigh
@@ -232,7 +233,7 @@ FocusScope {
                 onClicked: root.confirmed("declined")
             }
 
-            DankButton {
+            DButton {
                 text: stripAccelerator((root.request && root.request.ok) || I18n.trFor("dankbarPinentry", "OK"))
                 backgroundColor: Theme.primary
                 textColor: Theme.onPrimary

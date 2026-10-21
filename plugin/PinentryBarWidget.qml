@@ -4,6 +4,7 @@ import QtQuick
 import Quickshell.Wayland
 import qs.Common
 import qs.Widgets
+import qs.DCommon.Widgets
 import qs.Modules.Plugins
 
 /**
@@ -332,7 +333,7 @@ PluginComponent {
                 visible: !root.hosting
                 spacing: Theme.spacingXS
 
-                DankIcon {
+                DIcon {
                     name: "vpn_key"
                     size: root.iconSize
                     color: Theme.warning
@@ -604,7 +605,7 @@ PluginComponent {
         Column {
             spacing: Theme.spacingXS
 
-            DankIcon {
+            DIcon {
                 name: "vpn_key"
                 size: root.iconSize
                 color: Theme.warning

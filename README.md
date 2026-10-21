@@ -130,7 +130,7 @@ cp -r plugin ~/.config/DankMaterialShell/plugins/dankbarPinentry
 **4. Enable it and add the widget.** Enable DankBar Pinentry in Settings →
 Plugins (or `dms ipc call plugins enable dankbarPinentry`), then add the Dank
 Pinentry widget to a horizontal bar: with the default `bar` placement that is
-where prompts appear. DMS 1.7 or newer is required.
+where prompts appear. DMS 2.0 or newer is required.
 
 **Updating:** `git pull`, then repeat steps 1 and 3. **Uninstalling:** remove
 the binary and `~/.config/DankMaterialShell/plugins/dankbarPinentry`, and restore

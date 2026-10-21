@@ -2,7 +2,7 @@
   "id": "dankbarPinentry",
   "name": "DankBar Pinentry",
   "description": "Renders pinentry and askpass prompts inside DankMaterialShell, paired with the dank-pinentry and dank-askpass binaries.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "augustocdias",
   "icon": "vpn_key",
   "type": "composite",
@@ -21,5 +21,5 @@
   "startupCheck": "./DependencyCheck.qml",
   "dependencies": ["dank-pinentry", "dank-askpass"],
   "permissions": ["settings_read", "settings_write"],
-  "requires_dms": ">=1.6.0"
+  "requires_dms": ">=2.0.0"
 }
